@@ -33,6 +33,10 @@ def find_length_of_live():
         print(days_live * 1440)
     elif live_unit == 'hours':
         print(live_unit * 24)
+    elif live_unit == 'days':
+        print(days_live)
+    else:
+        live_unit = input("Do you want to know how many seconds, mintues, hours, or days you lived: ")
 
 
 def main():
